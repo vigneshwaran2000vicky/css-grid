@@ -1,0 +1,33 @@
+*{
+    margin: 0; padding: 0%;
+}
+span{
+    font-size: 15px;
+}
+h2{
+    font-size: 30px;
+}
+body{
+    background-color: black; color: white;
+    margin: 30px 13px; 
+}
+.continer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+.continer div{
+    padding: 20px;
+    text-align: center; cursor: pointer;
+}
+.continer div:hover{
+    transform: scale(0.97);
+}
+.bg1{
+    background: url(bg1.jpg);background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg2{
+    background: url(bg2.jpg);background-repeat: no-repeat;
+    background-size: cover;
+}
